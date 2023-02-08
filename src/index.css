@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+	--theme-blue-400: #066eb7;
+	--theme-blue-500: #0561a2;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+}

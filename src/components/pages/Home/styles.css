@@ -1,4 +1,11 @@
-.page {
-	background-color: #f7fcff;
-	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAAsSAAALEgHS3X78AAAAMklEQVQYlWP8//8/A7GAiWiV9FfMZeklQJRiLkuvCQwMDAewKWbBIrYAl+IhF3QMDAwAh+cJ6/99o0IAAAAASUVORK5CYII=');
+.reveal-panel {
+    margin-top: 328px;
+    width: 100%;
+    height: 2px;
+}
+
+@media (min-width: 1200px) {
+	.reveal-panel {
+		margin-top: 608px;
+	}
 }

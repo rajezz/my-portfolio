@@ -1,11 +1,16 @@
+/* Import Josefin Sans */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+/* Import Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap&family=Source+Sans+Pro:wght@400');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -13,8 +18,12 @@ code {
 }
 
 :root {
+	--black-400: #2b2b2b;
+	--black-300: #2b2b2b;
+	--theme-blue-200: #b2d6ef;
 	--theme-blue-400: #066eb7;
 	--theme-blue-500: #0561a2;
+	--theme-orange-500: #fec20e;
 }
 
 #root {
@@ -24,5 +33,17 @@ code {
 
 .page {
     width: 100%;
-    min-height: 100vh;
+    min-height: 600px;
 }
+
+
+/* General utility classess */
+.m-t-75 {
+  margin-top: 75px !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.flex-row {}

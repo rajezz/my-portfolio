@@ -12,6 +12,7 @@
 	align-items: center;
 	justify-content: space-between;
 	background-color: #ffffff40;
+	box-shadow: #05050533 0px 0px 20px 0px;
 }
 
 /* .header .title, .header .nav-list {
@@ -33,7 +34,7 @@
 .nav-list a {
 	position: relative;
 	text-decoration: none;
-	color: #2b2b2b;
+	color: var(--black-400);
 	padding: 4px;
 }
 

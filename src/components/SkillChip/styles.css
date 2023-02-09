@@ -1,0 +1,15 @@
+.skill-chip-panel {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.skill-chip {
+	margin: 6px 4px;
+	padding: 5px 12px;
+	line-height: 20px;
+	border-radius: 5px;
+	background-color: var(--theme-orange-500);
+	color: white;
+	font-size: 14px;
+	font-weight: 500;
+}

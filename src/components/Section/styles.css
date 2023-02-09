@@ -1,0 +1,32 @@
+.section {
+	width: 100%;
+	background-color: white;
+	padding: 100px 20px;
+	margin: 0;
+        box-sizing: border-box;
+    /* box-shadow: #0505051a 0px 0px 20px 0px; */
+}
+
+.container {
+	width: calc(100% - 32px);
+	padding-left: 16px;
+	padding-right: 16px;
+	overflow-x: hidden;
+}
+
+@media (min-width: 767px) {
+	.container {
+		width: calc(100% - 64px);
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		margin: 0 auto;
+		width: 980px;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+}

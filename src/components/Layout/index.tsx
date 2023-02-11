@@ -2,7 +2,11 @@ import * as React from "react";
 import { Footer } from "../Footer";
 import { Header } from "../Header";
 
-export const Layout = ({children}: any) => {
+interface Props {
+	children: JSX.Element;
+}
+
+export const Layout = ({ children }: Props) => {
 	return (
 		<React.Fragment>
 			<Header />

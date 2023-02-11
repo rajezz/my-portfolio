@@ -21,7 +21,7 @@ ul.timeline {
 
 ul.timeline li.entry {
 	position: relative;
-	padding: 10px 25px;
+	padding: 20px 25px;
 }
 
 ul.timeline::before {
@@ -31,7 +31,7 @@ ul.timeline::before {
 	position: absolute;
 	left: 0px;
 	width: 1px;
-	top: 15px;
+	top: 0px;
 	height: calc(100% - 15px);
 	z-index: 400;
 }
@@ -67,19 +67,28 @@ ul.timeline li.entry::before {
 }
 
 .row.desc {
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 14px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	font-size: 1rem;
+}
+
+.row.desc a {
+    color: #066eb7;
+}
+.row.desc a:hover {
+    color: #014e86;
 }
 
 .desc .desc-textarea {
 	padding: 6px 12px;
 	text-indent: 16px;
-	line-height: 24px;
+	line-height: 26px;
 }
 
 ul.bulletin-points {
 	list-style-type: disclosure-closed;
 }
+
 ul.bulletin-points li.point {
 	padding: 6px 4px;
+	line-height: 26px;
 }

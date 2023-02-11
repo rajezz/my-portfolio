@@ -1,7 +1,12 @@
 import * as React from "react";
 import "./styles.css";
 
-export function Section({children, className}: any) {
+interface Props {
+	children: JSX.Element[] | JSX.Element;
+	className?: string;
+}
+
+export function Section({ children, className }: Props) {
 	return (
 		<div className={`section ${className}`}>
 			<div className="container">{children}</div>

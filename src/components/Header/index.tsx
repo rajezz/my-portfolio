@@ -2,12 +2,7 @@ import * as React from "react";
 
 import "./styles.css";
 
-import { EmailIcon, FacebookIcon, GithubIcon, InstagramIcon, LinkedInIcon } from "../Icons";
-import { PERSONALITY_SKILLS, SOCIAL_MEDIA_LINKS } from "../_data/constant";
-import { IconLink } from "../IconLink";
-import { IconLinkProps } from "../IconLink/index";
-
-import { NavLink, NavLinkProps } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const navList = [
 	{

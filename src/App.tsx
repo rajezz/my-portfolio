@@ -2,14 +2,7 @@ import "./App.css";
 import * as React from "react";
 
 import { HomePage } from "./components/pages/Home";
-import {
-	BrowserRouter as Router,
-	Route,
-	Routes,
-	Link,
-	createBrowserRouter,
-	createRoutesFromElements
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { ContactPage } from "./components/pages/Contact";
 import { WorkPage } from "./components/pages/Work";

@@ -3,9 +3,21 @@
 /* Import Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=family=Source+Sans+Pro:wght@400;500');
 
+:root {
+	--black-400: #2b2b2b;
+	--black-300: #272525;
+	--theme-blue-200: #b2d6ef;
+	--theme-blue-400: #066eb7;
+	--theme-blue-500: #0561a2;
+	--theme-orange-500: #fec20e;
+  --theme-font: 'Josefin Sans', sans-serif;
+  --font-family-for-description: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial,
+		sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
 body {
   margin: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: var(--theme-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
@@ -25,14 +37,7 @@ italic {
   font-style: italic;
 }
 
-:root {
-	--black-400: #2b2b2b;
-	--black-300: #2b2b2b;
-	--theme-blue-200: #b2d6ef;
-	--theme-blue-400: #066eb7;
-	--theme-blue-500: #0561a2;
-	--theme-orange-500: #fec20e;
-}
+
 
 #root {
 	display: flex;

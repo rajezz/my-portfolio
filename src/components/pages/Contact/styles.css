@@ -1,0 +1,55 @@
+.page.contact,
+.page.contact .section {
+	background-color: #e7ebef;
+}
+
+.profile-card {
+	width: 32%;
+	margin: 15px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.picture-panel img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.info-panel {
+	padding: 18px 14px;
+	color: var(--black-300);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-panel .name {
+	font-size: 30px;
+	font-weight: 500;
+    margin-bottom: 2px;
+    font-family: var(--font-family-for-description);
+}
+
+.info-panel .email {
+    font-family: var(--font-family-for-description);
+    text-decoration: none;
+    color: var(--black-300);
+    font-size: 17px;
+    margin-bottom: 4px;
+    font-style: italic;
+}
+
+.info-panel.email:hover, .info-panel.email:active {
+    color: #000000;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social-links a {
+    margin: 10px;
+}

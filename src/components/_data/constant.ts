@@ -11,6 +11,17 @@ export const PERSONALITY_SKILLS: Array<string> = [
 	"Collabrtive"
 ];
 
+export const IMP_SOCIAL_MEDIA_LINKS: Array<IconLinkProps> = [
+	{
+		link: "https://www.linkedin.com/in/rajeswaran-a-b654a4157/",
+		Icon: LinkedInIcon
+	},
+	{
+		link: "https://github.com/rajezz",
+		Icon: GithubIcon
+	}
+];
+
 export const SOCIAL_MEDIA_LINKS: Array<IconLinkProps> = [
 	{
 		link: "https://www.facebook.com/rajezz.raj.92/",

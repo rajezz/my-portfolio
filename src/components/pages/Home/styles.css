@@ -15,6 +15,6 @@
 	text-indent: 50px;
 	line-height: 35px;
 	text-align: justify;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: var(--font-family-for-description);
 	color: var(--black-300);
 }

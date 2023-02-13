@@ -11,7 +11,7 @@ export function ContactPage() {
 			<Section className="m-t-75">
 				<div className="profile-card">
 					<div className="picture-panel">
-						<img src="assets/images/cover-pic.jpg" alt="Rajezz" />
+						<img src="assets/images/cover-pic.png" alt="Rajezz" />
 					</div>
 					<div className="info-panel">
 						<div className="name">Rajeswaran</div>

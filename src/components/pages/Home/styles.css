@@ -17,4 +17,51 @@
 	text-align: justify;
 	font-family: var(--font-family-for-description);
 	color: var(--black-300);
+	margin-bottom: 75px;
+}
+
+.resume-panel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.resume-panel a {
+	text-decoration: none;
+	color: var(--theme-blue-400);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 27px;
+	transition: color 0.3s ease;
+}
+
+.resume-panel a:hover {
+	color: var(--theme-blue-600);
+}
+
+.resume-panel a svg {
+	fill: var(--theme-blue-400);
+	transition: all 0.5s ease-in-out;
+	width: auto;
+	margin: 0px 6px;
+}
+
+svg.prefix {
+	height: 24px;
+	transform: translateY(5px) scale(0.9);
+}
+svg.suffix {
+	height: 22px;
+	opacity: 0;
+	transform: translateY(3px) scale(0.9);
+}
+
+.resume-panel a:hover svg {
+	fill: var(--theme-blue-600);
+}
+
+.resume-panel a:hover svg.suffix {
+	opacity: 1;
 }

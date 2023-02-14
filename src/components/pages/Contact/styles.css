@@ -3,8 +3,15 @@
 	background-color: #e7ebef;
 }
 
+.flex-panel {
+	display: flex;
+	flex-direction: row;
+
+    
+}
+
 .profile-card {
-	width: 32%;
+	width: 40%;
 	margin: 15px;
 	background-color: white;
 	border-radius: 10px;
@@ -27,29 +34,50 @@
 .info-panel .name {
 	font-size: 30px;
 	font-weight: 500;
-    margin-bottom: 2px;
-    font-family: var(--font-family-for-description);
+	margin-bottom: 2px;
+	font-family: var(--font-family-for-description);
 }
 
 .info-panel .email {
-    font-family: var(--font-family-for-description);
-    text-decoration: none;
-    color: var(--black-300);
-    font-size: 17px;
-    margin-bottom: 4px;
-    font-style: italic;
+	font-family: var(--font-family-for-description);
+	text-decoration: none;
+	color: var(--black-300);
+	font-size: 17px;
+	margin-bottom: 4px;
+	font-style: italic;
 }
 
-.info-panel.email:hover, .info-panel.email:active {
-    color: #000000;
+.info-panel.email:hover,
+.info-panel.email:active {
+	color: #000000;
 }
 
 .social-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 .social-links a {
-    margin: 10px;
+	margin: 10px;
+}
+
+.description-panel {
+	width: calc(85% - 40px);
+    font-family: var(--font-family-for-description);
+    padding: 20px;
+	margin: 0px 20px;
+	font-size: 20px;
+    letter-spacing: .15px;
+    line-height: 1.5;
+}
+
+.description-panel .row {
+	margin-bottom: 20px;
+}
+
+.description-panel .title {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-bottom: 15px;
 }

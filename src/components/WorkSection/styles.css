@@ -71,13 +71,6 @@ ul.timeline li.entry::before {
 	font-size: 1rem;
 }
 
-.row.desc a {
-    color: #066eb7;
-}
-.row.desc a:hover {
-    color: #014e86;
-}
-
 .desc .desc-textarea {
 	padding: 6px 12px;
 	text-indent: 16px;

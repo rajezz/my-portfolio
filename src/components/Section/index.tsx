@@ -8,7 +8,7 @@ interface Props {
 
 export function Section({ children, className }: Props) {
 	return (
-		<div className={`section ${className}`}>
+		<div className={`section ${className ? className : ""}`}>
 			<div className="container">{children}</div>
 		</div>
 	);

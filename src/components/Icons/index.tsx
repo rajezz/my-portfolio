@@ -3,7 +3,11 @@
 /* -------------------------------------------------------------------------- */
 import * as React from "react";
 
-export const GithubIcon = () => {
+interface Props {
+	className?: string;
+}
+
+export const GithubIcon = ({ className }: Props) => {
 	return (
 		<svg
 			id="Bold"
@@ -11,7 +15,8 @@ export const GithubIcon = () => {
 			height="24"
 			viewBox="0 0 24 24"
 			width="24"
-			xmlns="http://www.w3.org/2000/svg">
+			xmlns="http://www.w3.org/2000/svg"
+			className={className}>
 			<path
 				className="icon-path github-icon-path"
 				d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"
@@ -20,7 +25,7 @@ export const GithubIcon = () => {
 	);
 };
 
-export const FacebookIcon = () => {
+export const FacebookIcon = ({ className }: Props) => {
 	return (
 		<svg
 			id="Bold"
@@ -28,6 +33,7 @@ export const FacebookIcon = () => {
 			height="24"
 			viewBox="0 0 24 24"
 			width="24"
+			className={className}
 			xmlns="http://www.w3.org/2000/svg">
 			<path
 				className="icon-path facebook-icon-path"
@@ -37,7 +43,7 @@ export const FacebookIcon = () => {
 	);
 };
 
-export const LinkedInIcon = () => {
+export const LinkedInIcon = ({ className }: Props) => {
 	return (
 		<svg
 			id="Bold"
@@ -45,6 +51,7 @@ export const LinkedInIcon = () => {
 			height="24"
 			viewBox="0 0 24 24"
 			width="24"
+			className={className}
 			xmlns="http://www.w3.org/2000/svg">
 			<path
 				className="icon-path linkedin-icon-path"
@@ -59,7 +66,7 @@ export const LinkedInIcon = () => {
 	);
 };
 
-export const InstagramIcon = () => {
+export const InstagramIcon = ({ className }: Props) => {
 	return (
 		<svg
 			id="Bold"
@@ -67,6 +74,7 @@ export const InstagramIcon = () => {
 			height="24"
 			viewBox="0 0 24 24"
 			width="24"
+			className={className}
 			xmlns="http://www.w3.org/2000/svg">
 			<path
 				className="icon-path instagram-icon-path"
@@ -81,13 +89,14 @@ export const InstagramIcon = () => {
 	);
 };
 
-export const EmailIcon = () => {
+export const EmailIcon = ({ className }: Props) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="currentColor"
 			width="24"
 			height="24"
+			className={className}
 			viewBox="0 0 34 27">
 			<path
 				className="icon-path"
@@ -106,6 +115,39 @@ export const EmailIcon = () => {
 				strokeLinejoin="round"
 				strokeMiterlimit="10"
 				strokeWidth="2"></path>
+		</svg>
+	);
+};
+
+export const OpenNewLinkIcon = ({ className }: Props) => {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			height="24px"
+			viewBox="0 0 24 24"
+			width="24px"
+			className={className}>
+			<path d="M0 0h24v24H0z" fill="none" />
+			<path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+		</svg>
+	);
+};
+
+export const FileDownloadIcon = ({ className }: Props) => {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			enable-background="new 0 0 24 24"
+			height="24px"
+			viewBox="0 0 24 24"
+			width="24px"
+			className={className}>
+			<g>
+				<rect fill="none" height="24" width="24" />
+			</g>
+			<g>
+				<path d="M18,15v3H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3H18z M17,11l-1.41-1.41L13,12.17V4h-2v8.17L8.41,9.59L7,11l5,5 L17,11z" />
+			</g>
 		</svg>
 	);
 };

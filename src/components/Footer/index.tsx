@@ -9,7 +9,7 @@ import { IconLinkProps } from "../IconLink/index";
 export function Footer() {
 	return (
 		<footer className="footer">
-			<img src="assets/svg/logo.svg" height="40px" width="auto" alt="Logo" />
+			<img className="logo" src="assets/svg/logo.svg" height="40px" width="auto" alt="Logo" />
 			<div className="summary">
 				{PERSONALITY_SKILLS.map((elem) => (
 					<span key={elem} className="skill">

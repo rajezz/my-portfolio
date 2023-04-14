@@ -53,24 +53,15 @@
 	transition: all 0.2s ease-in-out;
 	margin: 0px 1rem;
 }
-/* .summary .skill::after {
-	margin-left: 10px;
-	content: "\2022";
-	color: inherit;
-} */
 
-/* .summary .skill:last-child::after {
-	margin-left: 10px;
-	content: "";
-	color: inherit;
-} */
 .copyrights {
-	font-size: 0.75rem;
+	font-size: 12px;
 	font-weight: 500;
 	color: #b0b0b3;
 	letter-spacing: 0.325rem;
 	text-transform: uppercase;
 }
+
 .footer p {
 	margin: 7px;
 }

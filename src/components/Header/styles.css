@@ -15,9 +15,11 @@
 	box-shadow: #05050533 0px 0px 20px 0px;
 }
 
-/* .header .title, .header .nav-list {
-	width: 200px;
-} */
+.header .title-link {
+	display: flex;
+	align-items: center;
+}
+
 .header .logo {
 	position: absolute;
 	left: calc(50% - 22px);
@@ -60,4 +62,10 @@
 
 .nav-list a:hover {
 	color: black;
+}
+
+@media screen and (max-width: 600px) {
+	.header .logo {
+		display: none;
+	}
 }

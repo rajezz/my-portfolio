@@ -9,8 +9,8 @@
 }
 
 .year {
-    font-size: 1.25rem;
-    letter-spacing: 1px;
+	font-size: 1.25rem;
+	letter-spacing: 1px;
 }
 
 ul.timeline {
@@ -69,6 +69,7 @@ ul.timeline li.entry::before {
 .row.desc {
 	font-family: var(--font-family-for-description);
 	font-size: 1rem;
+	text-align: justify;
 }
 
 .desc .desc-textarea {
@@ -84,4 +85,16 @@ ul.bulletin-points {
 ul.bulletin-points li.point {
 	padding: 6px 4px;
 	line-height: 26px;
+}
+
+@media screen and (max-width: 768px) {
+	.timeline .title {
+		font-size: 2rem;
+	}
+	.row.desc {
+		font-size: 1.5rem;
+	}
+	.skill-chip {
+		font-size: 1.5rem;
+	}
 }

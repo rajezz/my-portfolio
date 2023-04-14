@@ -6,8 +6,6 @@
 .flex-panel {
 	display: flex;
 	flex-direction: row;
-
-    
 }
 
 .profile-card {
@@ -15,6 +13,12 @@
 	margin: 15px;
 	background-color: white;
 	border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+	.profile-card {
+		width: 70%;
+	}
 }
 
 .picture-panel img {
@@ -32,7 +36,7 @@
 }
 
 .info-panel .name {
-	font-size: 30px;
+	font-size: 2rem;
 	font-weight: 500;
 	margin-bottom: 2px;
 	font-family: var(--font-family-for-description);
@@ -42,7 +46,7 @@
 	font-family: var(--font-family-for-description);
 	text-decoration: none;
 	color: var(--black-300);
-	font-size: 17px;
+	font-size: 1.125rem;
 	margin-bottom: 4px;
 	font-style: italic;
 }
@@ -67,7 +71,7 @@
     font-family: var(--font-family-for-description);
     padding: 20px;
 	margin: 0px 20px;
-	font-size: 20px;
+	font-size: 1.5rem;
     letter-spacing: .15px;
     line-height: 1.5;
 }

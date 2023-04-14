@@ -1,19 +1,19 @@
 .reveal-panel {
-	margin-top: 328px;
+	margin-top: 100vh;
 	width: 100%;
 	height: 2px;
 }
 
-@media (min-width: 1200px) {
+@media screen and (max-height: 450px) {
 	.reveal-panel {
-		margin-top: 608px;
+		margin-top: 450px;
 	}
 }
 
 .home-description {
 	font-size: 1.25rem;
 	text-indent: 50px;
-	line-height: 35px;
+	line-height: 2rem;
 	text-align: justify;
 	font-family: var(--font-family-for-description);
 	color: var(--black-300);
@@ -32,7 +32,7 @@
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 1.5rem;
 	line-height: 27px;
 	transition: color 0.3s ease;
 }

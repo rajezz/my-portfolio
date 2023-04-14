@@ -10,6 +10,6 @@
 	border-radius: 5px;
 	background-color: var(--theme-orange-500);
 	color: white;
-	font-size: 14px;
+	font-size: 1rem;
 	font-weight: 500;
 }

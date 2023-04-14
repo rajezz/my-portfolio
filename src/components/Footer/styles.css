@@ -10,7 +10,7 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 0px;
-    padding-top: 2rem;
+	padding-top: 2rem;
 	padding-bottom: 1.5rem;
 }
 
@@ -32,13 +32,11 @@
 	height: 245px;
 }
 
-.column-header {
-	font-size: 23px;
-	font-weight: 600;
-	margin-bottom: 15px;
-}
-
 .summary {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: center;
 	font-size: 1.5rem;
 	line-height: 3rem;
 	font-weight: 700;
@@ -53,18 +51,19 @@
 }
 .summary .skill {
 	transition: all 0.2s ease-in-out;
+	margin: 0px 1rem;
 }
-.summary .skill::after {
+/* .summary .skill::after {
 	margin-left: 10px;
 	content: "\2022";
 	color: inherit;
-}
+} */
 
-.summary .skill:last-child::after {
+/* .summary .skill:last-child::after {
 	margin-left: 10px;
 	content: "";
 	color: inherit;
-}
+} */
 .copyrights {
 	font-size: 0.75rem;
 	font-weight: 500;
@@ -113,4 +112,15 @@ a.icon-link {
 
 .icon-path {
 	transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 480px) {
+	a.icon-link {
+		margin: 25px 5px;
+		padding: 10px;
+	}
+	a.icon-link svg {
+		height: 18px;
+		width: 18px;
+	}
 }

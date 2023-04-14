@@ -14,6 +14,7 @@
 	--theme-font: "Josefin Sans", sans-serif;
 	--font-family-for-description: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
 		Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	font-size: 10px;
 }
 
 body {
@@ -21,7 +22,6 @@ body {
 	font-family: var(--theme-font);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 14px;
 }
 
 code {
@@ -43,8 +43,27 @@ italic {
 }
 
 .page {
+	display: none;
 	width: 100%;
 	min-height: 600px;
+}
+
+.warning-screen {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #ffd7d7;
+    color: red;
+	z-index: 2000;
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
 }
 
 /* General utility classess */
@@ -57,8 +76,29 @@ italic {
 }
 
 a {
-    color: #066eb7;
+	color: #066eb7;
 }
 a:hover {
-    color: #014e86;
+	color: #014e86;
+}
+
+@media screen and (min-width: 768px) {
+	:root {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+	:root {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 375px) {
+	.warning-screen {
+		display: none;
+	}
+	.page {
+		display: block;
+	}
 }

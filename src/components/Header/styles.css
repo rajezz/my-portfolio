@@ -36,6 +36,7 @@
 	text-decoration: none;
 	color: var(--black-400);
 	padding: 4px;
+	font-size: 14px;
 }
 
 .nav-list a:hover:before,

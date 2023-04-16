@@ -69,13 +69,12 @@ ul.timeline li.entry::before {
 .row.desc {
 	font-family: var(--font-family-for-description);
 	font-size: 1rem;
-	text-align: justify;
 }
 
 .desc .desc-textarea {
 	padding: 6px 12px;
 	text-indent: 16px;
-	line-height: 26px;
+	line-height: 1.5;
 }
 
 ul.bulletin-points {
@@ -84,7 +83,7 @@ ul.bulletin-points {
 
 ul.bulletin-points li.point {
 	padding: 6px 4px;
-	line-height: 26px;
+	line-height: 1.5;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,7 +1,9 @@
 import * as React from "react";
+// eslint-disable-next-line import/no-unresolved
+// import { Analytics } from "@vercel/analytics/react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { HomePage } from "./components/pages/Home";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { ContactPage } from "./components/pages/Contact";
 import { WorkPage } from "./components/pages/Work";

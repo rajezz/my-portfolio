@@ -6,18 +6,29 @@
 
 @media screen and (max-height: 450px) {
 	.reveal-panel {
-		margin-top: 450px;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.reveal-panel {
+		margin-top: 550px;
 	}
 }
 
 .home-description {
 	font-size: 1.25rem;
 	text-indent: 50px;
-	line-height: 2rem;
-	text-align: justify;
+	line-height: 1.5;
 	font-family: var(--font-family-for-description);
 	color: var(--black-300);
 	margin-bottom: 75px;
+}
+
+@media screen and (max-width: 768px) {
+	.home-description {
+		font-size: 1.5rem;
+	}
 }
 
 .resume-panel {

@@ -32,7 +32,7 @@ export const SOCIAL_MEDIA_LINKS: Array<IconLinkProps> = [
 		Icon: GithubIcon
 	},
 	{
-		link: "https://www.instagram.com/rajezzz_rj/",
+		link: "https://www.instagram.com/rajezz1/",
 		Icon: InstagramIcon
 	},
 	{
